@@ -1,0 +1,43 @@
+.error {
+  width: 100vw;
+  height: 90vh;
+  margin-top: 10vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.error img {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.error-content {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error-content h1 {
+  margin-bottom: 1rem;
+}
+
+.error-content p {
+  margin-bottom: 2.5rem;
+  color: rgb(90, 90, 90);
+}
+
+.error-content a:link,
+.error-content a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(56,97,251);
+}
+
+.error-content .attribution:link,
+.error-content .attribution:visited {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgb(90, 90, 90)
+}

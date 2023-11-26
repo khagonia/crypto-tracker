@@ -1,0 +1,47 @@
+.tracker-card {
+  background-color: white;
+  width: 225px;
+  height: 100px;
+  margin: 1.6rem 0 0 2rem;
+  padding: 2.4rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: rgb(88 102 126 / 8%) 0px 4px 24px, rgb(88 102 126 / 12%) 0px 1px 2px;
+}
+
+.tracker-container {
+  display: flex;
+  gap: 1.2rem
+}
+
+.tracker-logo {
+  width: 50px;
+}
+
+.tracker-logo img{
+  height: 50px;
+}
+
+.tracker-info {
+  flex-grow: 1;
+}
+
+.tracker-info p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: rgb(90, 90, 90);
+}
+
+
+.tracker-info h2 {
+  text-transform: uppercase;
+}
+
+
+.tracker-info .tick-green {
+  color:rgb(0, 215, 0);
+}
+
+.tracker-info .tick-red {
+  color: rgb(255,0,0);
+}

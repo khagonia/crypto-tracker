@@ -1,0 +1,17 @@
+.trackers-section {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;  
+}
+
+.trackers-section h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: rgb(44, 44, 44)
+}
+
+.trackers {
+  display: flex;
+}
